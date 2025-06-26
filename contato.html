@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container-button">
+            <a href="index.html">
+                <button class="button" >inicio</button>
+            </a>
+
+            <a href="sobre.html">
+                <button class="button">sobre</button>
+            </a>
+            
+            <a href="contato.html">
+                <button class="button">contato</button>
+            </a>
+        </div>
+
+        <div class="container-button">
+            <button id="botao-tema" aria-label="Alternar tema" title="Alternar tema">
+                <i class="fa-regular fa-moon"></i>
+            </button>
+            <button id="botao-acessibilidade" aria-label="Aumentar fonte" title="Aumentar fonte">
+                <i class="fa-solid fa-universal-access"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="formulario_contato">
+
+            <form id="form-contato">
+                <div class="container-form">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+                </div>
+
+                <div class="container-form">
+                    <label for="e-mail">E-mail</label><br>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required><br><br>
+                </div>
+
+                <div class="container-form">
+                    <label for="mensagem">Mensagem</label><br>
+                    <textarea name="mensagem" id="mensagen" rows="5" placeholder="Sua mensagem" required></textarea><br><br>
+                </div>
+
+                <div class="container-botao-formulario">
+                    <button class="botao-formulario" type="submit">Enviar</button>
+                </div>
+            </form>
+
+
+            </form>
+        </div>
+    </main>
+    <script src="script/meu-script.js"></script>
+</body>
+</html>
