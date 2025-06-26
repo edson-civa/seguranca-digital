@@ -8,16 +8,13 @@
 }
 
 body.tema-claro {
-  --cor-fundo: #E5E9F0;          /* Fundo com tom cinza-claro azulado */
-  --cor-cards: #F0F2F5;          /* Cards com um leve off-white */
-  --cor-botao: #E5E9F0;          /* Mesmo tom do fundo */
-  --cor-botao-sombra: #AAB4C6;   /* Sombra mais cinza, menos estourada */
-  --cor-texto: #1C1F26;          /* Quase preto, mas mais suave */
-  --cor-azul-principal: #005FA3; /* Azul mais escuro, com mais contraste */
+  --cor-fundo: #E5E9F0;
+  --cor-cards: #F0F2F5;
+  --cor-botao: #E5E9F0;
+  --cor-botao-sombra: #AAB4C6;
+  --cor-texto: #1C1F26;
+  --cor-azul-principal: #005FA3;
 }
-
-
-
 
 .cabecalho {
   background-color: var(--cor-cards);
@@ -256,9 +253,15 @@ textarea:-webkit-autofill {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 80vh; /* Ajuste a altura conforme o necessário */
+  min-height: 80vh; 
 }
 
+footer {
+    color: var(--cor-texto);
+    text-align: center;
+    background-color: var(--cor-cards);
+    padding: 20px;
+}
 
 @media (max-width: 846px) {
   .container-informacao {
